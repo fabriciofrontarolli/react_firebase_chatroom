@@ -1,0 +1,33 @@
+{
+  "name": "react_firebase_chatroom",
+  "version": "1.0.0",
+  "description": "A simple React Application Chatroom using Firebase as Data Source",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fabriciofrontarolli/react_firebase_chatroom.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "chatroom"
+  ],
+  "author": "Fabricio C. Frontarolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciofrontarolli/react_firebase_chatroom/issues"
+  },
+  "homepage": "https://github.com/fabriciofrontarolli/react_firebase_chatroom#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "webpack": "^1.14.0"
+  }
+}
