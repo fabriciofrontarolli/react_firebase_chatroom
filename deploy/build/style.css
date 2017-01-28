@@ -1,0 +1,44 @@
+*, body {
+  margin: 0px;
+  padding: 0px;
+  font: Verdana;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 5%;
+}
+
+.chat-header {
+  min-height: 40px;
+  height: 70px;
+  background: #12398C;
+  color: #fff;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+}
+
+.chat-output {
+  background: #F0E0DA;
+  height: 100%;
+}
+
+.chat-output li {
+  margin-left: 5%;
+}
+
+.chat-input {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  background: #12398C;
+  color: #fff;
+}
+.chat-input input {
+  width: 70%;
+}

@@ -64,13 +64,15 @@ class ChatRoom extends Component {
 
         return(
             <div>
-                <div id="chat-output">
+                <div className="chat-output">
                     { chatMessages }
                 </div>
-                <div id="chat-input">
+                <div className="chat-input">
                     <label>Send your message</label>
                     <input type="text" onChange={this.handleUpdateMessage} />
-                    <button onClick={this.handleChatMessage}>submit message</button>
+                    <button onClick={this.handleChatMessage}>
+                        <img src="build/telegram.png" />
+                    </button>
                 </div>
             </div>
         );
